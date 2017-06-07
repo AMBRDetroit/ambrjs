@@ -24,6 +24,7 @@ var config = {
 								"targets": {
 									"browsers": [ "last 2 versions" ]
 								},
+								"useBuiltIns" : true,
 								"modules" : false
 							}
 						]
