@@ -2,7 +2,7 @@
   "name": "ambrjs",
   "version": "1.0.0",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
+    "build": "webpack --watch  --config webpack.config.js",
     "build-production": "NODE_ENV=production webpack -p --config webpack.config.js"
   },
   "dependencies": {
